@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run compile ./src/contracts/* && npm run deploy && jest",
+    "test": "jest",
     "start": "node ./node_modules/ganache-cli/cli.js",
     "compile": "node ./node_modules/solc/solcjs -o ./build --base-path ./src/contracts --overwrite --bin --abi",
     "deploy": "node ./deploy.js"
