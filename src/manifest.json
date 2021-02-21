@@ -1,0 +1,5 @@
+{
+    "Greeter": {  
+        "args": ["Hola"]
+    }
+}
