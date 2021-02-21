@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node ./node_modules/ganache-cli/cli.js",
-    "compile": "node ./node_modules/solc/solcjs -o ./build --base-path ./src/contracts --overwrite --bin --abi",
+    "compile": "node ./node_modules/solc/solcjs -o ./build --base-path ./src/contracts --overwrite --bin --abi ./src/contracts/*",
     "deploy": "node ./deploy.js"
   },
   "author": "",
